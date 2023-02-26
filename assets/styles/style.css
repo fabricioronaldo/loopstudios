@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
+
+.header {
+  position: absolute;
+  width: 100vw;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.header .header__button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.header .header__menu {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 3rem 7rem;
+  }
+  .header .header__button {
+    display: none;
+  }
+  .header .header__menu {
+    display: flex;
+    align-items: center;
+  }
+  .header .header__menu .menu__list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  .header .header__menu .menu__list .list__link a {
+    color: white;
+    text-decoration: none;
+    font-family: "Alata", sans-serif;
+    font-size: 0.9rem;
+  }
+}
+.primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/mobile/image-hero.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.primary .primary__title {
+  width: calc(100% - 4rem);
+  text-transform: uppercase;
+  font-weight: 50;
+  border: 3px solid white;
+  color: white;
+  font-size: 2.3rem;
+  font-family: "Alata", sans-serif;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .primary {
+    justify-content: flex-start;
+    background-image: url("../images/desktop/image-hero.jpg");
+    background-position: center;
+    height: 50vh;
+  }
+  .primary .primary__title {
+    width: 40%;
+    margin: 5rem 0 0 7rem;
+    font-size: 2rem;
+    padding: 1.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */

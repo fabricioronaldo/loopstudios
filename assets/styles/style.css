@@ -81,4 +81,11 @@ body {
     font-size: 2rem;
     padding: 1.5rem;
   }
+}
+.secundary {
+  text-align: center;
+  padding: 5rem 0;
+}
+.secundary .secundary__image {
+  width: calc(100% - 4rem);
 }/*# sourceMappingURL=style.css.map */

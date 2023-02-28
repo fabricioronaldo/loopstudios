@@ -1,0 +1,38 @@
+.galerry {
+
+    .galerry__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $josefin;
+        font-size: 2rem;
+        font-weight: 100;
+        letter-spacing: 3px;
+
+    }
+    .galerry__card {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .card__image-desktop {
+            display: none;
+        }
+
+        .card__title {
+            color: white;
+            
+        }
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .galerry {
+
+        .galerry__card {
+
+            .card__image-mobile {
+                display: none;
+            }
+        }
+    }
+}

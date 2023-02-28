@@ -88,4 +88,48 @@ body {
 }
 .secundary .secundary__image {
   width: calc(100% - 4rem);
+}
+.secundary .secundary__content {
+  padding: 2rem;
+}
+.secundary .secundary__content .content__title {
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+.secundary .secundary__content .content__description {
+  padding: 1rem 0;
+  font-family: "Alata", sans-serif;
+  color: hsl(0, 0%, 55%);
+  font-size: 1rem;
+  line-height: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.galerry .galerry__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+.galerry .galerry__card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.galerry .galerry__card .card__image-desktop {
+  display: none;
+}
+.galerry .galerry__card .card__title {
+  color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .galerry .galerry__card .card__image-mobile {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

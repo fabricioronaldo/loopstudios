@@ -9,7 +9,7 @@
     }
 
     .secundary__content {
-        padding: 2rem;
+        padding-top: 2rem;
 
         .content__title {
             text-transform: uppercase;
@@ -20,13 +20,12 @@
         }
 
         .content__description {
-            padding: 1rem 0;
             font-family: $alata;
             color: $dark-gray;
             font-size: 1rem;
             line-height: 1.8rem;
             letter-spacing: 1px;
-
+            padding: 2rem;
         }
     }
 

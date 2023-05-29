@@ -1,7 +1,7 @@
 .header {
     position: absolute;
     width: 100vw;
-    padding: 2em;
+    padding: 2rem;
     display: flex;
     justify-content: space-between;
 
@@ -43,12 +43,14 @@
                         font-family: $alata;
                         font-size: .9rem;
                     }
+
+                    a:hover {
+                        color: $dark-gray;
+                        transition: 1s;
+                    }
                 }
             }
         }
 
     }
-    
-
-    
 }

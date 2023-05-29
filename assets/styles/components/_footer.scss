@@ -1,0 +1,40 @@
+.footer {
+    background: $black;
+    text-align: center;
+    padding: 3rem;
+    color: $white;
+
+    .footer__menu {
+
+       padding: 1rem;
+       list-style: none;
+        
+        li {
+            padding: 1rem;
+
+            a {
+                color: $white;
+                font-size: 1.1rem;
+                text-decoration: none;
+                
+            }
+
+            a:hover {
+                border-bottom: 4px solid $white;
+            }
+        }
+
+    }
+    div {
+        padding: 1rem;
+
+        a {
+            padding: 0 .5rem;
+            cursor: pointer;
+        }
+    }
+    p{
+        padding: 1rem;
+    }
+
+}

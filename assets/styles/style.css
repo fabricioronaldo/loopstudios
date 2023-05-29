@@ -12,7 +12,7 @@ body {
 .header {
   position: absolute;
   width: 100vw;
-  padding: 2em;
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
 }
@@ -46,6 +46,10 @@ body {
     text-decoration: none;
     font-family: "Alata", sans-serif;
     font-size: 0.9rem;
+  }
+  .header .header__menu .menu__list .list__link a:hover {
+    color: hsl(0, 0%, 55%);
+    transition: 1s;
   }
 }
 .primary {
@@ -90,7 +94,7 @@ body {
   width: calc(100% - 4rem);
 }
 .secundary .secundary__content {
-  padding: 2rem;
+  padding-top: 2rem;
 }
 .secundary .secundary__content .content__title {
   text-transform: uppercase;
@@ -100,19 +104,19 @@ body {
   letter-spacing: 3px;
 }
 .secundary .secundary__content .content__description {
-  padding: 1rem 0;
   font-family: "Alata", sans-serif;
   color: hsl(0, 0%, 55%);
   font-size: 1rem;
   line-height: 1.8rem;
   letter-spacing: 1px;
+  padding: 2rem;
 }
 
 .galerry {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 2rem;
+  padding: 0 2rem;
   justify-content: center;
 }
 .galerry .galerry__title {
@@ -122,6 +126,7 @@ body {
   font-size: 2rem;
   font-weight: 100;
   letter-spacing: 3px;
+  margin-bottom: 2rem;
 }
 .galerry .galerry__card {
   height: 140px;
@@ -187,9 +192,45 @@ body {
   padding: 1rem 2rem;
   justify-self: center;
 }
+.galerry .button {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 5rem 0;
+}
 
 @media screen and (min-width: 1024px) {
   .galerry .galerry__card .card__image-mobile {
     display: none;
   }
+}
+.footer {
+  background: hsl(0, 0%, 0%);
+  text-align: center;
+  padding: 3rem;
+  color: hsl(0, 0%, 100%);
+}
+.footer .footer__menu {
+  padding: 1rem;
+  list-style: none;
+}
+.footer .footer__menu li {
+  padding: 1rem;
+}
+.footer .footer__menu li a {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.footer .footer__menu li a:hover {
+  border-bottom: 4px solid hsl(0, 0%, 100%);
+}
+.footer div {
+  padding: 1rem;
+}
+.footer div a {
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+.footer p {
+  padding: 1rem;
 }/*# sourceMappingURL=style.css.map */

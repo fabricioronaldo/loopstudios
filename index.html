@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,88 +8,106 @@
     <title>Loopstudios landing page</title>
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
-<body>
-    <header class="header">
-        <img class="header__image-logo" src="./assets/images/logo.svg" alt="Company logo">
-        <nav class="header__menu">
-            <ul class="menu__list">
-                <li class="list__link"><a href="#">About</a></li>
-                <li class="list__link"><a href="#">Careers</a></li>
-                <li class="list__link"><a href="#">Events</a></li>
-                <li class="list__link"><a href="#">Products</a></li>
-                <li class="list__link"><a href="#">Support</a></li>
-            </ul>
-        </nav>
-        <button class="header__button"><img class="header__image-menu" src="./assets/images/icon-hamburger.svg" alt="menu icon image"></button>
 
+<body>
+    <header>
+        <div class="header">
+            <img class="header__image-logo" src="./assets/images/logo.svg" alt="Company logo">
+            <nav class="header__menu">
+                <ul class="menu__list">
+                    <li class="list__link"><a href="#">About</a></li>
+                    <li class="list__link"><a href="#">Careers</a></li>
+                    <li class="list__link"><a href="#">Events</a></li>
+                    <li class="list__link"><a href="#">Products</a></li>
+                    <li class="list__link"><a href="#">Support</a></li>
+                </ul>
+            </nav>
+            <button class="header__button"><img class="header__image-menu" src="./assets/images/icon-hamburger.svg"
+                    alt="menu icon image"></button>
+        </div>
+
+        <div class="menu__mobile mobile__active">
+            <div>
+                <img class="header__image-logo" src="./assets/images/logo.svg" alt="Company logo">
+                <button class="mobile__button"><img src="./assets/images/icon-close.svg" alt="menu icon image"></button>
+            </div>
+            <ul>
+                <li class="mobile__link"><a href="#">About</a></li>
+                <li class="mobile__link"><a href="#">Careers</a></li>
+                <li class="mobile__link"><a href="#">Events</a></li>
+                <li class="mobile__link"><a href="#">Products</a></li>
+                <li class="mobile__link"><a href="#">Support</a></li>
+            </ul>
+        </div>
     </header>
-    
+
     <main class="main">
 
-        <section class="primary"> 
+        <section class="primary">
             <h1 class="primary__title">Immersive experiences that deliver</h1>
-        </section>        
-        
+        </section>
+
         <section class="secundary">
-            
+
             <img class="secundary__image" src="./assets/images/mobile/image-interactive.jpg" alt="">
-            
+
             <div class="secundary__content">
                 <h2 class="content__title">The leader in interactive VR</h2>
 
-                <p class="content__description">Founded in 2011, Loopstudios has been producing world-class virtual reality 
-                    projects for some of the best companies around the globe. Our award-winning 
-                    creations have transformed businesses through digital experiences that bind 
+                <p class="content__description">Founded in 2011, Loopstudios has been producing world-class virtual
+                    reality
+                    projects for some of the best companies around the globe. Our award-winning
+                    creations have transformed businesses through digital experiences that bind
                     to their brand.</p>
             </div>
         </section>
-        
+
         <section class="galerry">
-            
+
             <h2 class="galerry__title">Our creations</h2>
-            
+
             <div class="galerry__card deep">
-                
+
                 <h3 class="card__title">Deep earth</h3>
             </div>
             <div class="galerry__card night">
-                
+
                 <h3 class="card__title">Night arcade</h3>
             </div>
             <div class="galerry__card soccer">
-                
+
                 <h3 class="card__title">Soccer team VR</h3>
             </div>
             <div class="galerry__card grid">
-                
+
                 <h3 class="card__title">The grid</h3>
             </div>
             <div class="galerry__card vr">
-                
+
                 <h3 class="card__title">From up above VR</h3>
             </div>
             <div class="galerry__card pocket">
-                
+
                 <h3 class="card__title">Pocket borealis</h3>
             </div>
             <div class="galerry__card curiosity">
-                
+
                 <h3 class="card__title">The curiosity</h3>
             </div>
             <div class="galerry__card make">
-                
+
                 <h3 class="card__title">Make it fisheye</h3>
             </div>
             <div class="button">
-                <a class="galerry__button" href="#">See all</a> 
+                <a class="galerry__button" href="#">See all</a>
             </div>
         </section>
-        
+
     </main>
-    
+
     <footer class="footer">
         <img class="header__image-logo" src="./assets/images/logo.svg" alt="Company logo">
-        
+
         <ul class="footer__menu">
             <li><a href="">Abaut</a></li>
             <li><a href="">Careers</a></li>
@@ -102,9 +121,10 @@
             <a href=""><img src="./assets/images/icon-pinterest.svg" alt=""></a>
             <a href=""><img src="./assets/images/icon-instagram.svg" alt=""></a>
         </div>
-              
+
         <p>© 2021 Loopstudios. All rights reserved.</p>
     </footer>
-    
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>

@@ -80,7 +80,7 @@ body {
     color: white;
     text-decoration: none;
     font-family: "Alata", sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
   .header .header__menu .menu__list .list__link a:hover {
     color: hsl(0, 0%, 55%);
@@ -150,6 +150,23 @@ body {
   padding: 2rem;
 }
 
+@media screen and (min-width: 768px) {
+  .secundary {
+    padding: 5rem;
+  }
+  .secundary > div {
+    width: calc(60% - 5rem);
+  }
+  .secundary .secundary__content {
+    background: hsl(0, 0%, 100%);
+    width: calc(30% - 5rem);
+    height: 450px;
+    position: relative;
+    top: -380px;
+    left: 720px;
+    padding: 6rem;
+  }
+}
 .galerry {
   display: flex;
   flex-direction: column;

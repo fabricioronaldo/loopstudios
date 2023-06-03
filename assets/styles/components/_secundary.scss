@@ -30,3 +30,23 @@
     }
 
 }
+
+@media screen and (min-width: 768px) {
+    .secundary {
+        padding: 5rem;
+    }
+    .secundary > div {
+        width: calc(60% - 5rem);
+    }
+    
+
+    .secundary .secundary__content {
+        background: $white;
+        width: calc(30% - 5rem);
+        height: 450px;
+        position: relative;
+        top: -380px;
+        left: 720px;
+        padding: 6rem;
+    }
+}
